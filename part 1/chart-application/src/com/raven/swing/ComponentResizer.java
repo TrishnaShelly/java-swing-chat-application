@@ -120,7 +120,7 @@ public class ComponentResizer extends MouseAdapter {
     public void setDragInsets(Insets dragInsets) {
         validateMinimumAndInsets(minimumSize, dragInsets);
 
-        this.dragInsets = dragInsets;
+//        this.dragInsets = dragInsets;this.dispose();
     }
 
     /**
